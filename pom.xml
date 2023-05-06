@@ -5,6 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <dependencies>
+	  
+	  
+	  
+	  <!-- JSF 2 Dependencies -->
 	  <dependency>
 		<groupId>com.sun.faces</groupId>
 		<artifactId>jsf-api</artifactId>
@@ -34,6 +38,13 @@
 		<groupId>javax.servlet.jsp</groupId>
 		<artifactId>jsp-api</artifactId>
 		<version>2.1</version> 
+	  </dependency>
+	  
+	  <dependency>
+	    <groupId>org.apache.derby</groupId>
+	    <artifactId>derby</artifactId>
+	    <version>10.14.2.0</version>
+	    <scope>test</scope>
 	  </dependency>
 	  
   </dependencies>
